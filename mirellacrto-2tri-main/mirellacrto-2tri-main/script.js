@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Atualmente, quantos elementos químicos a tabela periódica possui?",
+        enunciado: "Qual a obra de arte mais cara já arrematada em um leilão?",
         alternativas: [
             {
-                texto: "108",
-                afirmacao: "118,"
+                texto: "O Grito, de Edvard Munch",
+                afirmacao: "Salvator Mundi, de Leonardo da Vinci,"
             },
             {
-                texto: "118",
-                afirmacao: "118,"
+                texto: "Salvator Mundi, de Leonardo da Vinci",
+                afirmacao: "Salvator Mundi, de Leonardo da Vinci,"
             }          
            
         ]
     },
     {
-        enunciado: " Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis?",
+        enunciado: " Qual o país mais novo do mundo?",
         alternativas: [
             {
-                texto:"33",
-                afirmacao:"33,"
+                texto:"Kosovo",
+                afirmacao:"Sudão do Sul,"
             },
             {
-                texto: "30",
-                afirmacao:"33,"
+                texto: "Sudão do Sul",
+                afirmacao:"Sudão do Sul,"
             }
         ]
     },
     {
-        enunciado: " Qual o nome popular do cloreto de sódio?",
+        enunciado: " Quem foi a primeira mulher a viajar para o espaço?",
         alternativas: [
             {
-                texto:" Sal de cozinha",
-                afirmacao:" Sal de cozinha,"
+                texto:" Kathryn D. Sullivan",
+                afirmacao:"Valentina Tereshkova,"
             },
             {
-                texto:"Fermento",
-                afirmacao:" Sal de cozinha,"
-            }
-           
-        ]
-    },
-    {
-        enunciado: "Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?",
-        alternativas: [
-            {
-                texto:" Tem entre 2 a 4 litros. São retirados 450 mililitros",
-                afirmacao:"Tem entre 4 a 6 litros e São retirados 450 mililitros,"
-            },
-            {
-                texto:"Tem entre 4 a 6 litros. São retirados 450 mililitros",
-                afirmacao:"Tem entre 4 a 6 litros e São retirados 450 mililitros,"
+                texto:"Valentina Tereshkova",
+                afirmacao:" Valentina Tereshkova,"
             }
            
         ]
     },
     {
-        enunciado: " O que a palavra legend significa em português?",
+        enunciado: "Quem foram os primeiros escaladores a conquistar o pico do Everest?",
         alternativas: [
             {
-                texto: "Legenda",
-                afirmacao:"Lenda."
+                texto:"  Maurice Herzog e Louis Lachenal",
+                afirmacao:"Edmund Hillary e Tenzing Norgay ,"
             },
             {
-                texto: "Lenda",
-                afirmacao:"Lenda."
+                texto:"Edmund Hillary e Tenzing Norgay",
+                afirmacao:"Edmund Hillary e Tenzing Norgay,"
+            }
+           
+        ]
+    },
+    {
+        enunciado: "Qual o nome do evento astronômico responsável pelo dia mais longo do ano?",
+        alternativas: [
+            {
+                texto: "Solstício de verão",
+                afirmacao:"Equinócio de primavera."
+            },
+            {
+                texto: "Equinócio de primavera",
+                afirmacao:"Solstício de verão"
             }
            
            
